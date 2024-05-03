@@ -1,0 +1,77 @@
+/* body{
+    background-image: url('https://wallpapercosmos.com/w/full/2/a/b/1198591-3840x2160-desktop-4k-studio-ghibli-background-photo.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        z-index: -1;
+} */
+
+
+h1 {
+
+
+    border-radius: 10px;
+  text-align: center;
+    padding:  1.5rem 2.5rem;
+    margin: 0 0 1rem 36rem ;
+    font-size: 1.5rem;
+    background-image: linear-gradient(120deg, #13a954 0%,  #24b4af 100%);
+    width: 12%;
+    color: rgb(255, 255, 255);
+    opacity: 0.92;
+}
+
+h2{
+  border-radius: 10px;
+    text-align: center;
+      padding:  1.5rem 2.5rem;
+      margin: 0 0 1rem 65rem ;
+      font-size: 1rem;
+      /* background-image: linear-gradient(120deg, #84fab0 0%,  #8fd3f4 100%); */
+      width: 25%;
+      height: 1%;
+      color: rgb(255, 255, 255);
+      /* opacity: 0.97; */
+  font-weight: bold;
+  position: fixed;
+  bottom: 0;
+    right: 0;
+}
+
+p{
+    border-radius: 10px;
+    text-align: center;
+      padding:  1.5rem 2.5rem;
+      margin: 0 0 1rem 25rem ;
+      font-size: 1rem;
+      background-image: linear-gradient(120deg, #84fab0 0%,  #8fd3f4 100%);
+      width: 40%;
+      height: 1%;
+      color: rgb(255, 255, 255);
+      opacity: 0.97;
+      font-weight: bold;
+
+
+}
+
+a{
+  border-radius: 0px;
+  text-align: center;
+    padding:  1.5rem 2.5rem;
+    margin: 0 0 0rem 0rem ;
+    font-size: 1rem;
+    background-image: linear-gradient(120deg, #84fab0 0%,  #8fd3f4 100%);
+    /* background-image: linear-gradient(120deg, #84fab0 0%,  #8fd3f4 100%); */
+    width: 2%;
+    height: auto;
+    color: rgb(255, 255, 255);
+    /* opacity: 0.97; */
+font-weight: bold;
+position: fixed;
+top: 0;
+  left:0;
+
+
+  
+
+}

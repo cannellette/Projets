@@ -1,0 +1,67 @@
+#pieChart {
+    width: 40px;
+    height: 40px;
+  }
+  
+  /* Styliser les tranches du camembert */
+  .chartjs-render-monitor::before,
+  .chartjs-render-monitor::after {
+    border-radius: 50%;
+  }
+  
+  /* Définir les couleurs des tranches */
+  .chartjs-render-monitor::before {
+    background-color: #ff6384; /* Couleur pour le genre Male */
+  }
+  
+  .chartjs-render-monitor::after {
+    background-color: #36a2eb; /* Couleur pour le genre Female */
+  }
+  
+  .chartjs-render-monitor::nth-child(3) {
+    background-color: #ffce56; /* Couleur pour le genre N/A */
+  }
+  
+  /* Styliser le titre */
+  .chartjs-render-monitor + div > div > div > div {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Styliser les étiquettes */
+  .chartjs-render-monitor + div > div > div > div > div {
+    font-size: 14px;
+    color: #666;
+  }
+
+  h2 {
+    display: inline-flex;
+    text-align: center;
+    border-radius : 10px;
+    padding: 1.5rem 2.5rem;
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    margin: 10px;
+    font-size: 3rem;
+    color: white;
+      
+  }
+
+  a{
+    border-radius: 0px;
+    text-align: center;
+    padding:  1.5rem 2.5rem;
+    margin: 0 0 1rem 1rem ;
+    font-size: 1rem;
+    background-image: linear-gradient(120deg, #84fab0 0%,  #8fd3f4 100%);
+    /* background-image: linear-gradient(120deg, #84fab0 0%,  #8fd3f4 100%); */
+    width: 2%;
+    height: auto;
+    color: rgb(255, 255, 255);
+    /* opacity: 0.97; */
+font-weight: bold;
+position: fixed;
+top: 0;
+  right:0;
+
+  }

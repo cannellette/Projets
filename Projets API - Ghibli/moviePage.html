@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API-Film Ghibli</title>
+    
+    
+    <link rel= "stylesheet" href="moviePage.css">
+    <style>
+
+    </style>
+</head>
+<body>
+  <!-- <a href="#" class="maclasse">"https://movie-web-me.vercel.app"/<h2>movie🎬️💮</h2></a> -->
+   <a href="https://movie-web-me.vercel.app/"><h2>movie🎬️💮</h2></a>
+      <audio id="myAudio" src="My Neighbor Totoro Lyrics ( Tonari no Totoro ) Sub English.mp3"></audio> <!--pour mettre de la musique sur le site-->
+      <button onclick="playPause()"class="button">Play/Pause</button>
+  <button onclick="volumeUp()"class="button">Volume Up</button>
+  <button onclick="volumeDown()"class="button">Volume Down</button>
+  
+
+
+
+<script>
+  var audio = document.getElementById("myAudio");
+
+  function playPause() {
+    if (audio.paused) {
+      audio.play();
+    } else {
+      audio.pause();
+    }
+  }
+
+  function volumeUp() {
+    if (audio.volume < 1) {
+      audio.volume += 0.1;
+    }
+  }
+
+  function volumeDown() {
+    if (audio.volume > 0) {
+      audio.volume -= 0.1;
+    }
+  }
+</script>
+    
+    <div id="filmDetails">
+        
+        
+
+        </div>
+    
+     </div>
+        <script src = "moviePage.js">
+            </script>
+</body>
+</html>
